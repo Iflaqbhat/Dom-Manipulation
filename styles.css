@@ -1,0 +1,42 @@
+body {
+  background-color: black;
+  color: whitesmoke;
+  font-family: Arial, sans-serif;
+  text-align: left;
+}
+
+h1 {
+  color: whitesmoke;
+}
+
+input {
+  color: white;
+  background-color: black;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  width: auto;
+  padding: 5px;
+  font-size: 16px;
+}
+
+#incrementBtn,
+#decrementBtn {
+  padding: 5px 10px;
+  font-size: 16px;
+  margin-top: 5px;
+  border: 1px solid whitesmoke;
+  cursor: pointer;
+  border-radius: 5px;
+  /* Set a default background color */
+}
+
+#clearBtn {
+  background-color: black; /* Default color */
+  padding: 5px 10px;
+  font-size: 16px;
+  margin-top: 5px;
+  border: 1px solid whitesmoke;
+  cursor: pointer;
+  border-radius: 5px;
+}

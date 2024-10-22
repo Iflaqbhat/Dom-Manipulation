@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter Using HTML</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 class="classheading">Counter Using HTML</h1>
+
+    <input
+      type="text"
+      placeholder="your current count is: 0"
+      id="countInput"
+      readonly
+    />
+
+    <!-- Error message area -->
+    <p id="errorMessage" style="color: red; display: none"></p>
+
+    <br />
+    <button id="incrementBtn">Increment</button>
+    <button id="decrementBtn">Decrement</button>
+    <button
+      id="clearBtn"
+      class="meow"
+      style="
+        background-color: black;
+        color: white; /* Optional: to make the text readable */
+      "
+    >
+      Clear
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
